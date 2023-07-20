@@ -1,0 +1,43 @@
+body{
+    height:100vh;
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.8))
+    , url(./picture/com.png);
+ background-size: cover;
+}
+p{
+    filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 50px #fff);
+}
+.row img {
+    margin: 90px;
+    margin-left: 129px;
+    box-shadow:0 0 46px gray;
+    border-color: rgb(146, 126, 101);
+    padding: 3px;
+}
+.row p{
+    margin: 90px;
+    margin-left: 20px;
+}
+#about{
+    height: 100vh;
+}
+#skill{
+    height: 100vh;
+    margin-bottom: 30px;
+}
+.skill img{
+width: 90px;
+padding: 5px;
+border: none;
+border-color: beige;
+
+}
+#contact form{
+    width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(to bottom,rgba(151, 161, 151, 0.3),rgba(22, 7, 29, 0.3));
+}
+#contact{
+    height: 100vh;
+    background: linear-gradient(to bottom,rgba(151, 161, 151, 0.3),rgba(11, 8, 31, 0.3));
+}
